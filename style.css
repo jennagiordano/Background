@@ -1,0 +1,30 @@
+/* radial gradient background */
+/*set height, font size, color of text, text alignmwnt, font style*/
+#radial-gradient  {
+	background: radial-gradient(circle, blue, yellow, pink, orange, purple);
+    height:700px;
+    font-size:26px;
+    color:white;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+/*sets background of scrolling div to sunset image*/
+/*sets the min height*/
+/*sets background attachment to fixed, so other div will scroll over it"
+/*centers image, sets no repeat of image, and sets it as cover*/
+.fixedDiv {
+	background-image: url("image/sunset.jpg");
+   
+    /* Set a specific height */
+    min-height: 700px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+
+
